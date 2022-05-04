@@ -68,9 +68,9 @@ input {
     background-color:  #134e5e;
 
 }
-#igual {
-    font-weight: bold;
+#igual {    
     width: 185px;
+    font-weight: bold;
     background-color:#20276d;
     transition: all 200ms ease-in-out;
 }
@@ -178,4 +178,59 @@ input {
         left: 50%;
         transform: translate(-50%, -50%);
     } 
-}    
+}
+ @media only screen and (max-height: 570px) {  
+    form {
+        width: 60%;
+        height: 45%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 3%;
+    }
+    input {        
+        width: 22%;
+        height: 10%;
+        margin-top: 3%;
+        border-radius: 4px;
+        margin-left: 1%;
+    }
+    #igual {    
+        width: 47%;
+    }     
+    #seta {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #historico {    
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+}
+@media only screen and (max-height: 570px) {  
+   input {        
+        width: 22%;
+        height: 10%;
+        margin-top: 3%;
+        border-radius: 4px;
+        margin-left: 1%;
+    } 
+
+    #seta {
+        position: absolute;
+        top: 89%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #historico {    
+        position: absolute;
+        top: 93%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+}         
